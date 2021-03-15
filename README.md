@@ -9,7 +9,7 @@
  
  Neovim `neovim` vimplug https://www.chrisatmachine.com/Neovim/01-vim-plug/
  
- Ranger `ranger` `ueberzug`
+ Ranger `ranger` (`ueberzug` for image display in st)
  
  Zsh with ohmyzsh `curl` 'https://ohmyz.sh/#install'
 
