@@ -7,7 +7,7 @@
  
  Doas `doas`
  
- Neovim `neovim`
+ Neovim `neovim` vimplug https://www.chrisatmachine.com/Neovim/01-vim-plug/
  
  Ranger `ranger`
  
