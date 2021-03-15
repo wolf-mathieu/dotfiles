@@ -3,6 +3,16 @@
 ![](images/2021-03-15_11-49.png)
 # Dependences
 
+ Pywal https://github.com/dylanaraps/pywal
+ 
+ Doas 'doas'
+ 
+ Neovim 'neovim'
+ 
+ Ranger 'ranger'
+ 
+ Zsh with ohmyzsh 'curl' 'https://ohmyz.sh/#install'
+
  Dmenu https://github.com/LukeSmithxyz/dmenu
   
   `libxft-bgra`   `make`
