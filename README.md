@@ -5,13 +5,13 @@
 
  Pywal https://github.com/dylanaraps/pywal
  
- Doas 'doas'
+ Doas `doas`
  
- Neovim 'neovim'
+ Neovim `neovim`
  
- Ranger 'ranger'
+ Ranger `ranger`
  
- Zsh with ohmyzsh 'curl' 'https://ohmyz.sh/#install'
+ Zsh with ohmyzsh `curl` 'https://ohmyz.sh/#install'
 
  Dmenu https://github.com/LukeSmithxyz/dmenu
   
