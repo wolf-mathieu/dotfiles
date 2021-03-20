@@ -1,6 +1,7 @@
 # My dotfiles and configs
 
 ![](images/2021-03-15_11-49.png)
+![](dvWfnHw.png)
 # Dependences
 
  Pywal https://github.com/dylanaraps/pywal
