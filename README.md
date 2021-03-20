@@ -1,6 +1,9 @@
 # My dotfiles and configs
 
 ![](images/2021-03-15_11-49.png)
+
+Ex. of blur and dwm variant
+
 ![](dvWfnHw.png)
 # Dependences
 
@@ -15,6 +18,8 @@
  Zsh with ohmyzsh `curl` 'https://ohmyz.sh/#install'
 
  Dmenu https://github.com/LukeSmithxyz/dmenu
+ 
+ Dwm patched `base-devel libX11-devel libXft-devel libXinerama-devel`
   
   `libxft-bgra`   `make`
   
