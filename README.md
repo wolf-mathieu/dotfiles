@@ -2,7 +2,7 @@
 
 ![](images/2021-03-15_11-49.png)
 
-Ex. of blur and dwm variant
+Ex. of blur and dwm variant (DWM with: swallow, gaps, focus on click)
 
 ![](dvWfnHw.png)
 # Dependences
