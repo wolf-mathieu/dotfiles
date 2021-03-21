@@ -18,7 +18,7 @@ Ex. of blur and dwm variant (DWM with: swallow, gaps, focus on click)
  
  Neovim `neovim` vimplug https://www.chrisatmachine.com/Neovim/01-vim-plug/
  
- Ranger `ranger` (`ueberzug` for image display in st)
+ Ranger `ranger` (`ueberzug` for image display in st) `sxiv` for images management
  
  Zsh with ohmyzsh `curl` 'https://ohmyz.sh/#install'
 
