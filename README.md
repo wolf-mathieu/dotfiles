@@ -8,7 +8,7 @@ Ex. of blur and dwm variant (DWM with: swallow, gaps, focus on click)
 # Dependences
 
 (Only for DWM delete last line from template)
- `nvim /usr/lib/pythonX.y/site-packages/pywal/templates/colors-wal-dwm.h`
+ `/usr/lib/pythonX.y/site-packages/pywal/templates/colors-wal-dwm.h`
 
  Pywal https://github.com/dylanaraps/pywal
  
