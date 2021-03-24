@@ -4,6 +4,8 @@
 
 XINITRC `xsetroot` set pl keys, turn off screensaver 
 
+DWM HAS SOME ERRORS SO PLEASE DONT USE IT AT THIS TIME 
+
 Ex. of blur and dwm variant (DWM with: swallow, gaps, focus on click)
 
 ![](dvWfnHw.png)
