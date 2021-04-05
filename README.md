@@ -20,7 +20,7 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
  
  Ranger `ranger` (`ueberzug` for image display in st) `sxiv` for images management
  
- Zsh with ohmyzsh `curl` 'https://ohmyz.sh/#install'
+ Zsh 
 
  Dmenu https://github.com/LukeSmithxyz/dmenu
  
