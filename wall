@@ -1,0 +1,6 @@
+#! /bin/sh
+genzathurarc &
+#pywal-discord &
+spicetify update 
+(cd $HOME/dwm && doas make clean install) 
+
