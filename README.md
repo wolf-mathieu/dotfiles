@@ -17,6 +17,7 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
  Doas `doas`
  
  Discord `https://github.com/FilipLitwora/pywal-discord`
+ `https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Linux.AppImage`
  
  Neovim `neovim` vimplug https://www.chrisatmachine.com/Neovim/01-vim-plug/
  
