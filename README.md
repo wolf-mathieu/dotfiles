@@ -16,6 +16,8 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
  
  Doas `doas`
  
+ Discord `https://github.com/FilipLitwora/pywal-discord`
+ 
  Neovim `neovim` vimplug https://www.chrisatmachine.com/Neovim/01-vim-plug/
  
  Ranger `ranger` (`ueberzug` for image display in st) `sxiv` for images management
