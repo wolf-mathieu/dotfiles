@@ -6,6 +6,15 @@ XINITRC `xsetroot` set pl keys, turn off screensaver
 
 Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
+# Browser
+
+![](images/2021-04-10_23-11.png)
+
+`librewolf` https://librewolf-community.gitlab.io/
+
+ADDONS:
+
+
 ![](dvWfnHw.png)
 # Dependences
 
