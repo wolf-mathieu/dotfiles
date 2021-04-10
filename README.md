@@ -12,6 +12,10 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
 ![](images/2021-04-10_23-11.png)
 
+I'm testing librewolf at the moment, but my main browser is firefox
+
+`firefox`
+
 `librewolf` https://librewolf-community.gitlab.io/
 
 Extensions:
