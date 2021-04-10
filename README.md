@@ -14,7 +14,19 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
 `librewolf` https://librewolf-community.gitlab.io/
 
-ADDONS:
+Extensions:
+bitwarden
+ClearURLs
+decentraleyes
+ff2mpv
+frankerfacez
+pywalfox `https://github.com/frewacom/pywalfox`
+search by image
+stylus
+unhook - remove yt recommendations
+universal bypass
+violentmonkey
+sponsorblock
 
 # Dependences
 
