@@ -50,6 +50,8 @@ tabliss
  Ranger `ranger` (`ueberzug` for image display in st) `sxiv` for images management
  
  Zsh 
+ 
+ slstatus
 
  Dmenu https://github.com/LukeSmithxyz/dmenu
  
