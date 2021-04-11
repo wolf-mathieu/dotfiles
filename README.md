@@ -31,6 +31,7 @@ unhook - remove yt recommendations
 universal bypass
 violentmonkey
 sponsorblock
+tabliss
 
 # Dependences
 
