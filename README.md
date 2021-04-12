@@ -12,6 +12,8 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
 `https://github.com/wine/wal-start`
 fork of this startpage 
+Copy mozilla.cfg to /usr/lib/firefox/
+Copy local-settings.js to /usr/lib/firefox/defaults/pref/
 
 ![](images/2021-04-10_23-11.png)
 
