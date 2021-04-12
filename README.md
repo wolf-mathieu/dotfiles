@@ -10,6 +10,9 @@ Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
 # Browser
 
+`https://github.com/wine/wal-start`
+fork of this startpage 
+
 ![](images/2021-04-10_23-11.png)
 
 I'm testing librewolf at the moment, but my main browser is firefox
