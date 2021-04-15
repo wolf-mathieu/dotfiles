@@ -23,6 +23,8 @@ I'm testing librewolf at the moment, but my main browser is firefox
 
 `librewolf` https://librewolf-community.gitlab.io/
 
+about:config layout.frame_rate 144
+
 Extensions:
 bitwarden
 ClearURLs
