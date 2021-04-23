@@ -4,7 +4,7 @@
 
 ![](dvWfnHw.png)
 
-![](images/Screenshot_2021-04-23_17-24-55.png)
+![](images/Screenshot_2021-04-23_17-35-15.png)
 
 XINITRC `xsetroot` set pl keys, turn off screensaver 
 
