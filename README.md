@@ -4,6 +4,8 @@
 
 ![](dvWfnHw.png)
 
+![](images/Screenshot_2021-04-23_17-24-55.png)
+
 XINITRC `xsetroot` set pl keys, turn off screensaver 
 
 Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
