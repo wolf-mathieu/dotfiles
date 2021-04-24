@@ -80,7 +80,7 @@ tabliss
  
  Plasma
  
- Virtual Desktop Bar, Panel Transparency, Krohnkite
+ Virtual Desktop Bar, Panel Transparency, Krohnkite, Wallpaper Engine
  
  ![](images/2021-03-15_12-07.png)
  
