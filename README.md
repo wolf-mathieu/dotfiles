@@ -78,6 +78,10 @@ tabliss
  
  emoji `libxft-bgra` `fontconfig`
  
+ Plasma
+ 
+ Virtual Desktop Bar, Panel Transparency, Krohnkite
+ 
  ![](images/2021-03-15_12-07.png)
  
   
