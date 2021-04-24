@@ -1,9 +1,9 @@
 # My dotfiles and configs
-#BSPWM
+# BSPWM
 ![](images/2021-03-15_11-49.png)
-#DWM
+# DWM
 ![](dvWfnHw.png)
-#PLASMA
+# PLASMA
 ![](images/Screenshot_2021-04-23_17-35-15.png)
 
 XINITRC `xsetroot` set pl keys, turn off screensaver 
