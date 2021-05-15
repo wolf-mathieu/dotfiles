@@ -1,0 +1,5 @@
+xf86-video-nouveau
+xf86-input-libinput
+xorg-drivers
+xorg-server
+PULSE>ALSA
