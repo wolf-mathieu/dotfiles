@@ -1,5 +1,11 @@
+KERNEL =====  USB sound A49 sound
+nvidia-drivers
 xf86-video-nouveau
 xf86-input-libinput
 xorg-drivers
 xorg-server
-PULSE>ALSA
+PULSEAUDIO
+git
+alacritty
+
+
