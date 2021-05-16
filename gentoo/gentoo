@@ -1,9 +1,16 @@
 KERNEL =====  USB sound A49 sound
 nvidia-drivers
-xf86-video-nouveau
 xf86-input-libinput
-xorg-drivers
-xorg-server
+x11-libs/libX11
+x11-base/xorg-server
+x11-libs/libXrandr
+x11-libs/libXinerama
+x11-libs/libXft
+x11-apps/xinit
+x11-apps/xrdb
+x11-apps/mesa-progs
+x11-apps/xrandr
+x11-misc/xclip
 PULSEAUDIO
 git
 alacritty
