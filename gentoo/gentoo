@@ -1,4 +1,5 @@
 KERNEL =====  USB sound A49 sound
+cpuid2cpuflags
 nvidia-drivers
 xf86-input-libinput
 x11-libs/libX11
