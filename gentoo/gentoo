@@ -1,4 +1,4 @@
-KERNEL =====  USB sound A49 sound
+KERNEL =====  USB sound A49 sound == CONFIG_USER_NS (apkimg)
 cpuid2cpuflags
 nvidia-drivers
 xf86-input-libinput
