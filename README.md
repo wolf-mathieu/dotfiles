@@ -2,7 +2,7 @@
 # BSPWM
 ![](images/2021-03-15_11-49.png)
 # DWM
-![](dvWfnHw.png)
+![](images/dwm.png)
 # PLASMA
 ![](images/Screenshot_2021-04-23_17-35-15.png)
 
