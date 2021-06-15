@@ -10,6 +10,12 @@ XINITRC `xsetroot` set pl keys, turn off screensaver
 
 Ex. of blur and dwm variant (DWM with: focus on click, gaps, rotate)
 
+# Terminal Emulator
+
+Alacritty or Luke's st
+
+![](images/alacritty.png)
+
 # Browser
 
 `https://github.com/wine/wal-start`
@@ -82,7 +88,6 @@ tabliss
  
  Virtual Desktop Bar, Panel Transparency, Krohnkite, Wallpaper Engine
  
- ![](images/2021-03-15_12-07.png)
  
   
  
