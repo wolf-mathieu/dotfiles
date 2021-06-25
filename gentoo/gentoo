@@ -19,3 +19,4 @@ alacritty
 
 emerge --sync
 emerge -avDuN <package name>
+emerge --ask --verbose --update --deep --changed-use @world
