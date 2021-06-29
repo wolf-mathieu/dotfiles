@@ -1,5 +1,6 @@
 #!/bin/bash
-(cd $HOME/dotfiles/pywal && pip3 install --user . && export PATH="${PATH}:${HOME}/.local/bin/") &&
+(cd $HOME/dotfiles/pywal && pip3 install --user .) && 
+export PATH="${PATH}:${HOME}/.local/bin/" &&
 wal --theme random &&
 (cd $HOME/dotfiles/dmenu_better && sudo make clean install) &&
 (cd $HOME/dotfiles/dwm && sudo make clean install) &&
