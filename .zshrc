@@ -9,7 +9,7 @@ zstyle :compinstall filename '/home/kubaws/.zshrc'
 alias sudo='doas'
 alias ls='ls --color=auto'
 
-export PATH="/home/kubaws/.local/bin:$PATH"
+export PATH="${PATH}:${HOME}/.local/bin/"
 
 (cat ~/.cache/wal/sequences & )
 
