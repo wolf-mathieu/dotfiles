@@ -16,7 +16,7 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const unsigned int baralpha = 140;
 static const unsigned int borderalpha = OPAQUE;
-#include "/home/kubaws/.cache/wal/colors-wal-dwm.h"
+#include "/home/USER/.cache/wal/colors-wal-dwm.h"
 /* tagging */
 static const unsigned int alphas[][3]      = {
        /*               fg      bg        border     */
