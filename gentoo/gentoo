@@ -21,3 +21,4 @@ emerge --sync
 emerge -avDuN <package name>
 emerge --ask --verbose --update --deep --changed-use @world
 sudo emerge --update --newuse --deep --ask --with-bdeps=y @world
+perl-cleaner --all
