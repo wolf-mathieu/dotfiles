@@ -7,14 +7,14 @@ local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
 local gears = require("gears")
 local gfs = require("gears.filesystem")
-local themes_path = gfs.get_themes_dir()
+local themes_path = "/home/kubaws/.config/awesome/themes/" 
 
 local theme = {}
 
 theme.font          = "Fira Code 10"
 
 theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
+theme.bg_focus      = "#3F3F40"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
@@ -27,7 +27,7 @@ theme.fg_minimize   = "#ffffff"
 theme.useless_gap   = dpi(4)
 theme.border_width  = dpi(1)
 theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.border_focus  = "#3F3F40"
 theme.border_marked = "#91231c"
 
 
