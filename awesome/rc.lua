@@ -255,6 +255,9 @@ s.mytasklist = awful.widget.tasklist {
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
+            awful.widget.watch('sh -c "/home/kubaws/monitor.sh"', 1),
+            awful.widget.watch('sh -c "/home/kubaws/monitorc.sh"', 1),
+            awful.widget.watch('sh -c "weather.sh"', 15),
             mykeyboardlayout,
             mytextclock,
             s.mylayoutbox,
