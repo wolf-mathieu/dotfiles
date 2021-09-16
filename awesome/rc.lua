@@ -18,7 +18,6 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 beautiful.init("some_theme.lua")
-local bling = require("bling")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -644,22 +643,7 @@ tag.connect_signal("property::layout", function(t)
         end
     end
 end)
-bling.widget.tag_preview.enable {
-    show_client_content = true,  -- Whether or not to show the client content
-    x = 10,                       -- The x-coord of the popup
-    y = 10,                       -- The y-coord of the popup
-    scale = 0.25,                 -- The scale of the previews compared to the screen
-    honor_padding = false,        -- Honor padding when creating widget size
-    honor_workarea = false,       -- Honor work area when creating widget size
-    placement_fn = function(c)    -- Place the widget using awful.placement (this overrides x & y)
-        awful.placement.top_left(c, {
-            margins = {
-                top = 30,
-                left = 30
-            }
-        }) 
-    end           
-}
+
 -- Enable sloppy focus, so that focus follows mouse.
 --client.connect_signal("mouse::enter", function(c)
 --    c:emit_signal("request::activate", "mouse_enter", {raise = false})
