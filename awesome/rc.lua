@@ -191,57 +191,57 @@ s.mytaglist = awful.widget.taglist {
 }
 
     -- Create a tasklist widget
- --   s.mytasklist = awful.widget.tasklist {
- --       screen  = s,
-  --      filter  = awful.widget.tasklist.filter.currenttags,
- --       buttons = tasklist_buttons
---    }
-s.mytasklist = awful.widget.tasklist {
-    screen   = s,
-    filter   = awful.widget.tasklist.filter.currenttags,
-    buttons  = tasklist_buttons,
-    layout   = {
-        spacing_widget = {
-            {
-                forced_width  = 5,
-                forced_height = 24,
-                thickness     = 0,
-                color         = '#777777',
-                widget        = wibox.widget.separator
-            },
-            valign = 'center',
-            halign = 'center',
-            widget = wibox.container.place,
-        },
-        spacing = 1,
-        layout  = wibox.layout.fixed.horizontal
-    },
+    s.mytasklist = awful.widget.tasklist {
+        screen  = s,
+        filter  = awful.widget.tasklist.filter.currenttags,
+        buttons = tasklist_buttons
+   }
+--s.mytasklist = awful.widget.tasklist {
+--    screen   = s,
+--    filter   = awful.widget.tasklist.filter.currenttags,
+--    buttons  = tasklist_buttons,
+--    layout   = {
+--        spacing_widget = {
+--            {
+--                forced_width  = 5,
+--                forced_height = 24,
+--                thickness     = 0,
+--                color         = '#777777',
+--                widget        = wibox.widget.separator
+--            },
+--            valign = 'center',
+--            halign = 'center',
+--            widget = wibox.container.place,
+--        },
+---        spacing = 1,
+--        layout  = wibox.layout.fixed.horizontal
+--    },
     -- Notice that there is *NO* wibox.wibox prefix, it is a template,
     -- not a widget instance.
-    widget_template = {
-        {
-            wibox.widget.base.make_widget(),
-            forced_height = 3,
-            id            = 'background_role',
-            widget        = wibox.container.background,
-        },
-        {
-            {
-                id     = 'clienticon',
-                widget = awful.widget.clienticon,
-            },
-            margins = 2,
-            widget  = wibox.container.margin
-        },
-        nil,
-        create_callback = function(self, c, index, objects) --luacheck: no unused args
-            self:get_children_by_id('clienticon')[1].client = c
-        end,
-        layout = wibox.layout.align.vertical,
-    },
-}
+--    widget_template = {
+--        {
+--            wibox.widget.base.make_widget(),
+--            forced_height = 3,
+--            id            = 'background_role',
+--            widget        = wibox.container.background,
+--        },
+--        {
+--            {
+--                id     = 'clienticon',
+--                widget = awful.widget.clienticon,
+--            },
+--            margins = 2,
+--            widget  = wibox.container.margin
+--        },
+--        nil,
+--        create_callback = function(self, c, index, objects) --luacheck: no unused args
+--            self:get_children_by_id('clienticon')[1].client = c
+--        end,
+--        layout = wibox.layout.align.vertical,
+--    },
+--}
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", height = 30, screen = s })
+    s.mywibox = awful.wibar({ position = "bottom", height = 27, screen = s })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -251,8 +251,10 @@ s.mytasklist = awful.widget.tasklist {
             layout = wibox.layout.fixed.horizontal,
             s.mytaglist,
             s.mypromptbox,
+            s.mytasklist,
         },
-        s.mytasklist, -- Middle widget
+            nil,
+         -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             awful.widget.watch('sh -c "/home/kubaws/monitor.sh"', 1),
