@@ -2,10 +2,12 @@
 #include <X11/XF86keysym.h> 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 7;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
+static const int vertpad            = 7;       /* vertical padding of bar */
+static const int sidepad            = 8;       /* horizontal padding of bar */
 static const int user_bh            = 25;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const int focusonwheel       = 0;
 static const char *fonts[]          = { "Fira Code:size=12" };
@@ -141,7 +143,17 @@ static Button buttons[] = {
 	{ ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
 	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
 	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
-	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
+	/* placemouse options, choose which feels more natural:
+	 *    0 - tiled position is relative to mouse cursor
+	 *    1 - tiled postiion is relative to window center
+	 *    2 - mouse pointer warps to window center
+	 *
+	 * The moveorplace uses movemouse or placemouse depending on the floating state
+	 * of the selected client. Set up individual keybindings for the two if you want
+	 * to control these separately (i.e. to retain the feature to move a tiled window
+	 * into a floating position).
+	 */
+	{ ClkClientWin,         MODKEY,         Button1,        moveorplace,    {.i = 1} },
 	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
 	{ ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
 	{ ClkTagBar,            0,              Button1,        view,           {0} },
